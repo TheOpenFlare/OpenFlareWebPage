@@ -1,0 +1,40 @@
+{
+  "name": "open-flare-web-page",
+  "version": "1.0.0",
+  "description": "OpenFlareWebPage",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp webserver5000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "GPLv3",
+  "author": {
+    "name": "poqdavid",
+	"url": "about.me/poqdavid"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheOpenFlare/OpenFlareWebPage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TheOpenFlare/OpenFlareWebPage/issues"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta",
+    "browser-sync": "^2.18.8",
+    "font-awesome": "^4.7.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.7.0",
+    "gulp-header": "^1.8.9",
+    "gulp-real-favicon": "^0.2.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-server-livereload": "^1.9.2",
+    "gulp-sww": "^0.1.4",
+    "gulp-uglify": "^3.0.0",
+    "jquery": "^3.2.1",
+    "jquery.easing": "^1.4.1",
+    "popper.js": "^1.12.5",
+    "simple-line-icons": "^2.4.1"
+  }
+}

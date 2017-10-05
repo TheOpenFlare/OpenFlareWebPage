@@ -1,0 +1,58 @@
+﻿// Styling for the footer
+section.mbitcoin {
+    padding: 25px 0;
+    text-align: center;
+    color: inherit;
+    background-color: $gray-darker;
+    word-wrap: break-word;
+
+    p {
+        font-size: 12px;
+        margin: 0;
+    }
+
+    ul {
+        margin-bottom: 0;
+
+        li {
+            a {
+                font-size: 12px;
+                color: fade-out(white, .7);
+
+                &:hover,
+                &:focus,
+                &:active,
+                &.active {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+    ul.list-social {
+        margin-bottom: 0;
+
+        li {
+            i {
+                font-size: 40px;
+                line-height: 80px;
+                display: block;
+                width: 80px;
+                height: 80px;
+                color: white;
+                border-radius: 100%;
+            }
+
+            &.social-bitcoin {
+                i {
+                    background-color: $brand-bitcoin;
+
+                    &:hover {
+                        background-color: darken($brand-bitcoin, 5%);
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
