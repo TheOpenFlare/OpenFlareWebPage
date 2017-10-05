@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# version Wed Oct 04 2017 23:26:30 GMT+0330 (Iran Standard Time)
+# version Thu Oct 05 2017 05:30:07 GMT+0330 (Iran Standard Time)
 CACHE:
 android-chrome-144x144.png
 vendor\simple-line-icons\scss\simple-line-icons.scss
@@ -44,10 +44,8 @@ mstile-70x70.png
 safari-pinned-tab.svg
 css\main.css
 css\main.min.css
-img\app-store-badge.svg
 img\bg-cta.jpg
 img\bg-pattern.png
-img\google-play-badge.svg
 img\openflare.svg
 img\OpenFlare2.ico
 img\OpenFlare256.png
@@ -65,8 +63,8 @@ scss\_download.scss
 scss\_features.scss
 scss\_footer.scss
 scss\_global.scss
+scss\_masthead.scss
 android-chrome-192x192.png
-scss\_mbitcoin.scss
 scss\_mixins.scss
 scss\_navbar.scss
 scss\_variables.scss
@@ -77,16 +75,8 @@ vendor\jquery-easing\jquery.easing.js
 vendor\jquery-easing\jquery.easing.min.js
 vendor\popper\popper.js
 vendor\popper\popper.min.js
-vendor\bootstrap\js\bootstrap.js
-vendor\bootstrap\js\bootstrap.min.js
 vendor\font-awesome\css\font-awesome.css
 vendor\font-awesome\css\font-awesome.min.css
-vendor\bootstrap\css\bootstrap-grid.css
-vendor\bootstrap\css\bootstrap-grid.min.css
-vendor\bootstrap\css\bootstrap-reboot.css
-vendor\bootstrap\css\bootstrap-reboot.min.css
-vendor\bootstrap\css\bootstrap.css
-vendor\bootstrap\css\bootstrap.min.css
 vendor\font-awesome\fonts\fontawesome-webfont.eot
 vendor\font-awesome\fonts\fontawesome-webfont.svg
 vendor\font-awesome\fonts\fontawesome-webfont.ttf
@@ -121,14 +111,22 @@ vendor\font-awesome\scss\_rotated-flipped.scss
 vendor\font-awesome\scss\_screen-reader.scss
 vendor\font-awesome\scss\_stacked.scss
 vendor\font-awesome\scss\_variables.scss
+vendor\bootstrap\css\bootstrap-grid.css
+vendor\bootstrap\css\bootstrap-grid.min.css
+vendor\bootstrap\css\bootstrap-reboot.css
+vendor\bootstrap\css\bootstrap-reboot.min.css
+vendor\bootstrap\css\bootstrap.css
+vendor\bootstrap\css\bootstrap.min.css
+vendor\bootstrap\js\bootstrap.js
+vendor\bootstrap\js\bootstrap.min.js
 vendor\simple-line-icons\css\simple-line-icons.css
-vendor\simple-line-icons\less\simple-line-icons.less
 vendor\simple-line-icons\fonts\Simple-Line-Icons.eot
 vendor\simple-line-icons\fonts\Simple-Line-Icons.svg
 vendor\simple-line-icons\fonts\Simple-Line-Icons.ttf
 vendor\simple-line-icons\fonts\Simple-Line-Icons.woff
 vendor\simple-line-icons\fonts\Simple-Line-Icons.woff2
-scss\_masthead.scss
+vendor\simple-line-icons\less\simple-line-icons.less
+scss\_mbitcoin.scss
 install-sw.js
 cache.html
 cache.js

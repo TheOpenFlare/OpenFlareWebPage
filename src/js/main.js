@@ -1,4 +1,9 @@
-(function($) {
+/*!
+ * OpenFlare -  v1.0.0 (https://www.openflare.org)
+ * Copyright 2017 poqdavid
+ * Licensed under GPLv3 (https://github.com/TheOpenFlare/OpenFlareWebPage/blob/master/LICENSE.txt)
+ */
+(function ($) {
   "use strict"; // Start of use strict
 
   // Smooth scrolling using jQuery easing

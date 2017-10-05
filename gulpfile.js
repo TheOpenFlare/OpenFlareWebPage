@@ -14,15 +14,15 @@ var fs = require('fs');
 // Set the banner content
 var banner = ['/*!\n',
     ' * OpenFlare - <%= pkg.title %> v<%= pkg.version %> (<%= pkg.homepage %>)\n',
-    ' * Copyright 2017-' + (new Date()).getFullYear(), ' <%= pkg.author %>\n',
-    ' * Licensed under <%= pkg.license %> (https://github.com/poqdavid/<%= pkg.name %>/blob/master/LICENSE)\n',
+    ' * Copyright ' + (new Date()).getFullYear(), ' <%= pkg.author.name %>\n',
+    ' * Licensed under <%= pkg.license %> (https://github.com/TheOpenFlare/OpenFlareWebPage/blob/master/LICENSE.txt)\n',
     ' */\n',
     ''
 ].join('');
 
 // File where the favicon markups are stored
 var FAVICON_DATA_FILE = 'faviconData.json';
-
+ 
 // Generate the icons. This task takes a few seconds to complete.
 // You should run it at least once to create the icons. Then,
 // you should run it whenever RealFaviconGenerator updates its
@@ -210,7 +210,7 @@ gulp.task('offline', function () {
 
 // Configure the browserSync task
 gulp.task('browserSync', function () {
-
+    
     browserSync.init({
         server: "./src",
         notify: false,

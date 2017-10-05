@@ -2,6 +2,7 @@
   "name": "open-flare-web-page",
   "version": "1.0.0",
   "description": "OpenFlareWebPage",
+  "homepage": "https://www.openflare.org",
   "main": "index.js",
   "scripts": {
     "start": "gulp webserver5000",
